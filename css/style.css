@@ -40,5 +40,50 @@ nav{
     color: #fff;
 }
 /* ====================================
-             navbar design ends
+       banner design starts
+===================================== */
+
+.banner{
+    background: #1C1E53;
+    padding: 126px 0px;
+
+}
+
+.banner h1{
+     font-family: "Poppins", sans-serif;
+     color: #fff;
+     font-size: 54px;
+     font-weight: 600;
+}
+
+.banner p{
+     font-family: "Poppins", sans-serif;
+     width: 562px;
+    color: #BBBBCB;
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 24px;
+    padding-bottom: 48px;
+}
+
+ .banner .banner-btn{
+    background: #FCD980;
+      font-family: "Poppins", sans-serif;
+     color: black;
+     font-size: 16px;
+     font-weight: 500;
+     border: 2px transparent solid;
+    border-radius: 41px;
+    padding: 16px 48px;
+    transition: .4s;
+
+}
+
+.banner .banner-btn:hover{
+    background: transparent ;
+    border-color: #FCD980;
+    color: #FCD980;
+}
+/* ====================================
+       banner design ends
 ===================================== */
