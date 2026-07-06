@@ -387,3 +387,20 @@ nav{
 /* ====================================
        feature section design ends
 ===================================== */
+/* ====================================
+       FAQ section design starts
+===================================== */
+.faq{
+    padding: 128px 0px;
+}
+ .faq .get-in-touch a{
+     font-family: "Poppins", sans-serif;
+      color: #2405F2;  
+     font-size: 18px;
+     font-weight: 500;
+    padding-top: 16px;
+     
+}
+/* ====================================
+       FAQ section design ends
+===================================== */
