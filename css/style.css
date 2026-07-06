@@ -223,7 +223,7 @@ nav{
     padding-top: 64px;
 }
 
-.project .col-lg-8{
+.project .project-content{
     position: relative;
     overflow: hidden;
 }
@@ -235,11 +235,155 @@ nav{
     top: 0;
     left: -52%;
      transition: .4s;
+     padding-top: 312px;
+     padding-left: 48px;
+     padding-right: 35px;
+     padding-bottom: 16px;
+     background: linear-gradient(rgba(28, 30, 83,0.42),#1C1E53);
  }
- .project .col-lg-8:hover .overlay{
+ .project .project-content:hover .overlay{
     left:0;
    
  }
+ .project .project-content h3{
+         font-family: "Poppins", sans-serif;
+      color: #fff;  
+     font-size: 24px;
+     font-weight: 600;
+ }
+ .project .project-content p{
+         font-family: "Poppins", sans-serif;
+      color: #fff;  
+     font-size: 16px;
+     font-weight: 500;
+     width: 290px;
+ }
+ .project .project-content .get-in-touch i{
+    left: 120px;
+    color: #FCD980;
+}
+ .project .project-content .get-in-touch:hover i{
+    left: 140px;
+}
+ .project .project-content .get-in-touch a{
+     font-family: "Poppins", sans-serif;
+      color: #FCD980;  
+     font-size: 18px;
+     font-weight: 500;
+
+}
+
+.project .col-lg-4 img:last-child{
+    margin-top: 32px;
+}
+
+
+
+
+.project .project-card-content{
+    position: relative;
+    overflow: hidden; 
+}
+ .project .overlay-card{
+    width: 100%;
+    height: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: -100%;
+    left: 0%;
+     transition: .4s;
+     padding-top: 129px;
+     padding-left: 56px;
+     padding-right: 36px;
+     padding-bottom: 16px;
+     background: linear-gradient(rgba(28, 30, 83,0.42),#1C1E53);
+ }
+ .project .project-card-content h3{
+         font-family: "Poppins", sans-serif;
+      color: #fff;  
+     font-size: 24px;
+     font-weight: 600;
+     width: 250px;
+ }
+ .project .project-card-content:hover .overlay-card{
+    bottom: 50%;
+   
+ }
+  .project .project-card-content .get-in-touch i{
+    left: 130px;
+    color: #FCD980;
+}
+ .project .project-card-content .get-in-touch:hover i{
+    left: 150px;
+}
+ .project .project-card-content .get-in-touch a{
+     font-family: "Poppins", sans-serif;
+      color: #FCD980;  
+     font-size: 18px;
+     font-weight: 500;
+
+}
 /* ====================================
        project section design ends
+===================================== */
+/* ====================================
+       feature section design starts
+===================================== */
+
+.feature{
+    background: #F4F6FC;
+     padding: 128px 0px; 
+}
+.feature .row{
+    row-gap: 24px;
+}
+.feature .common-title h2{
+    margin:auto;
+    width:630px;
+    text-align: center;
+    padding-bottom: 47px;
+ }
+ .feature .common-title p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  width: auto;
+ }
+
+ .feature .card{
+    width: 100% !important;
+    padding-top: 58px !important;
+    padding-bottom: 48px !important;
+    padding-left: 48px !important;
+    padding-right: 32px !important;
+    border-radius: 0px;
+    border: 0px;
+ }
+ .feature img{
+    width: 8%;
+
+
+}
+
+.feature .card-body{
+    padding: 0 !important;
+}
+.feature .card-title{
+    font-family: "Poppins", sans-serif;
+    color: #030303;  
+    font-size: 24px;
+    font-weight: 500;
+    padding-top: 22px;
+    padding-bottom: 8px;
+    
+}
+.feature .card-text{
+    font-family: "Poppins", sans-serif;
+    color: rgba(3, 3, 3,0.7);  
+    font-size: 16px;
+    font-weight: 400;
+    
+}
+/* ====================================
+       feature section design ends
 ===================================== */
