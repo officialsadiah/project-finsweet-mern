@@ -401,6 +401,24 @@ nav{
     padding-top: 16px;
      
 }
+
+.faq .accordion-header span{
+    margin-right: 59px;
+     font-family: "Poppins", sans-serif;
+      color: #2405F2;  
+     font-size: 24px;
+     font-weight: 500;
+}
+.faq .accordion-button{
+    
+     font-family: "Poppins", sans-serif;
+      color: #282938;  
+     font-size: 24px;
+     font-weight: 500;
+}
+.faq .accordion-body{
+    margin: 0px 83px;
+}
 /* ====================================
        FAQ section design ends
 ===================================== */
