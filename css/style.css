@@ -8,6 +8,38 @@ nav{
  a{
     text-decoration: none;
  }
+ .common-title h2{
+     font-family: "Poppins", sans-serif;
+     color: black;
+     font-size: 48px;
+     font-weight: 600;
+}
+.common-title p{
+     font-family: "Poppins", sans-serif;
+     color: rgba(0, 0, 0,0.7);
+     font-size: 16px;
+     font-weight: 400;
+     width: 350px;
+}
+.box {
+    display: flex;
+    }
+
+    .get-in-touch{
+    position: relative;
+}
+
+.get-in-touch i{
+    color: #2405F2;  
+    position: absolute;
+    top: 50%;
+    left: 185px;
+    transform: translateY(-50%);
+    transition: .4s;
+}
+ .get-in-touch:hover i{
+    left: 220px;
+}
  /* ====================================
              common css
 ===================================== */
@@ -48,6 +80,9 @@ nav{
     padding: 126px 0px;
 
 }
+.banner .box{
+    align-items: center;
+}
 
 .banner h1{
      font-family: "Poppins", sans-serif;
@@ -76,6 +111,7 @@ nav{
     border-radius: 41px;
     padding: 16px 48px;
     transition: .4s;
+    margin-right: 32px;
 
 }
 
@@ -83,6 +119,33 @@ nav{
     background: transparent ;
     border-color: #FCD980;
     color: #FCD980;
+}
+
+ .banner .get-in-touch a{
+     font-family: "Poppins", sans-serif;
+      color: #f2f2f7;  
+     font-size: 18px;
+     font-weight: 500;
+}
+
+.banner .get-in-touch i{
+    color: #efeef5;  
+    position: absolute;
+    top: 50%;
+    left: 185px;
+    transform: translateY(-50%);
+    transition: .4s;
+}
+ .banner .get-in-touch i{
+    left: 120px;
+}
+ .banner .get-in-touch:hover i{
+    left: 140px;
+    
+}
+ .banner .get-in-touch:hover{
+   color: #fff;
+    
 }
 /* ====================================
        banner design ends
@@ -98,41 +161,13 @@ nav{
     padding-top:128px;
 }
 
-.work h2{
-     font-family: "Poppins", sans-serif;
-     color: black;
-     font-size: 48px;
-     font-weight: 600;
-}
-.work p{
-     font-family: "Poppins", sans-serif;
-     color: rgba(0, 0, 0,0.7);
-     font-size: 16px;
-     font-weight: 400;
-     width: 350px;
-}
-.work .get-in-touch{
-    position: relative;
 
-
-}
-.work .get-in-touch a{
+ .work .get-in-touch a{
      font-family: "Poppins", sans-serif;
       color: #2405F2;  
      font-size: 18px;
      font-weight: 500;
      
-}
-.work  .get-in-touch i{
-    color: #2405F2;  
-    position: absolute;
-    top: 50%;
-    left: 185px;
-    transform: translateY(-50%);
-    transition: .4s;
-}
-.work .get-in-touch:hover i{
-    left: 220px;
 }
 .work  .col-lg-7 .row{
     row-gap: 48px;
@@ -157,4 +192,54 @@ nav{
 
 /* ====================================
        work section design ends
+===================================== */
+
+
+/* ====================================
+       project section design starts
+===================================== */
+.project{
+    padding: 128px 0px;
+}
+.project .box{
+    align-items: center;
+    justify-content: space-between;
+}
+ .project .get-in-touch a{
+     font-family: "Poppins", sans-serif;
+      color: #2405F2;  
+     font-size: 18px;
+     font-weight: 500;
+
+     
+}
+ .project .get-in-touch i{
+    left: 100px;
+}
+ .project .get-in-touch:hover i{
+    left: 120px;
+}
+.project .row{
+    padding-top: 64px;
+}
+
+.project .col-lg-8{
+    position: relative;
+    overflow: hidden;
+}
+ .project .overlay{
+    width: 52%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: -52%;
+     transition: .4s;
+ }
+ .project .col-lg-8:hover .overlay{
+    left:0;
+   
+ }
+/* ====================================
+       project section design ends
 ===================================== */
