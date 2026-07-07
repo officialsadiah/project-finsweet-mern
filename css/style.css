@@ -56,6 +56,7 @@ nav{
     border-radius: 41px;
     padding: 16px 48px;
     margin-left: 48px;
+    display: inline-block;
 }
 .navbar-nav{
      column-gap: 32px ; 
